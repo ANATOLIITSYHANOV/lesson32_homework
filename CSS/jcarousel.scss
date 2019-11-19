@@ -1,0 +1,46 @@
+.wrap_jcarousel{
+    max-width: 1780px;
+    min-width: 440px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 10000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        float: left;
+        margin-left: 45px;
+    }
+}
+
+.bothdiv{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    opacity: .7;
+}
+
+.jcarousel_prev{
+    top: 150px;
+    background-image:url('../IMG/scroll\ left.png') ;
+}
+
+.jcarousel_next{
+    top: 150px;
+    right: 0;
+    background-image:url('../IMG/scroll\ right.png') ;
+}
+
+.jcarousel_prev:hover , .jcarousel_next:hover{
+    opacity: .8;
+    cursor: pointer;
+}
